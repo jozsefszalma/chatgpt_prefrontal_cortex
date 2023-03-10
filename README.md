@@ -1,6 +1,8 @@
 # ChatGPT Prefrontal Cortex
 Inspired by [this article](https://www.noemamag.com/ai-chatbots-dont-care-about-your-social-norms/?utm_source=noematwitter&utm_medium=noemasocial) <br>
 When I read it, I was thinking 'ok sure, but this sounds like an inhibitory problem' so I set out to give ChatGPT an inner voice to remind it when it is misbehaving.
+<br>
+This particular implementation will only provide an opportunity for the main model to review its message, based on the feedback from the inhibitor model; this can be of course re-engineered for different outcomes.
 
 <b>work in progress!</b>
 
