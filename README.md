@@ -2,7 +2,7 @@
 Inspired by [this article](https://www.noemamag.com/ai-chatbots-dont-care-about-your-social-norms/?utm_source=noematwitter&utm_medium=noemasocial) <br>
 When I read it, I was thinking 'ok sure, but this sounds like an inhibitory problem' so I set out to give ChatGPT an inner voice to remind it when it is misbehaving.
 
-[b]work in progress![/b]
+<b>work in progress!</b>
 
 ### set up 
 env variables (e.g. in a .env file if using vscode) 
