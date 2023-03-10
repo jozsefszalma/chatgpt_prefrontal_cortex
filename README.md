@@ -23,6 +23,6 @@ env variables (e.g. in a .env file if using vscode)
     - enter and shift-enter in the input window are captured by vscode, use the Send button instead
     - in vscode the default key binding to turn a cell into markdown is "m", you need to re-bind that in the settings as vscode captures it during typing
 
-### disclaimer:
+### Disclaimer:
 This is less than a proof-of-concept as I couldn't provoke ChatGPT to go off the rails reliably. <br>
 However, the inhibitory model seems to be quite reliable (if prompted properly) and ChatGPT does respond to a simulated inhibition by rephrasing its last message.
