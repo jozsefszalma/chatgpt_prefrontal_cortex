@@ -6,7 +6,7 @@ This particular implementation will only provide an opportunity for the main mod
 
 <b>work in progress!</b>
 
-### set up 
+### Set up 
 env variables (e.g. in a .env file if using vscode) 
 - "KEY", for your OpenAI API key 
 - "PROMPT_SYSTEM" (optionally) if you want to give your chatbot a default personality (e.g. helpful expert in area x)
@@ -17,8 +17,12 @@ env variables (e.g. in a .env file if using vscode)
     so, you need to engineer your prompt accordingly. <br>
     Also, you need to educate the inhibitor about your risk appetite, otherwise it might complain about every minor thing. 
 
-### known issues:
+### Known issues:
 - the UI will only work in Jupyter environments that handle ipywidgets properly (e.g. Databricks' Jupyter does not, vscode is marginal)
 - if using vscode keep in mind:
     - enter and shift-enter in the input window are captured by vscode, use the Send button instead
     - in vscode the default key binding to turn a cell into markdown is "m", you need to re-bind that in the settings as vscode captures it during typing
+
+### disclaimer:
+This is less than a proof-of-concept as I couldn't provoke ChatGPT to go off the rails reliably. <br>
+However, the inhibitory model seems to be quite reliable (if prompted properly) and ChatGPT does respond to a simulated inhibition by rephrasing its last message.
