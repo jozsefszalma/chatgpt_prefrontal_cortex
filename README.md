@@ -9,7 +9,7 @@ env variables (e.g. in a .env file if using vscode)
 - "KEY", for your openai API key 
 - "PROMPT_SYSTEM" (optionally) if you want to give your chatbot a default personality (e.g. helpful expert in area x)
 - "PROMPT_INHIBITOR" default instructions to the inhibitor model (i.e. what to look for, formatting the feedback in json etc)
-    the below code is expecting the responses from the inhibitor in the following format: <br>
+    my code is expecting the responses from the inhibitor in the following format: <br>
         {"decision": "pass", "explanation": ""}<br>
         {"decision": "inhibit", "explanation": ""} <br>
     so you need to engineer your prompt accordingly.
