@@ -15,7 +15,7 @@ env variables (e.g. in a .env file if using vscode)
         {"decision": "pass", "explanation": ""}<br>
         {"decision": "inhibit", "explanation": ""} <br>
     so, you need to engineer your prompt accordingly. <br>
-    Also, you need to educate the inhibitor about your risk appetite, otherwise the it will complain about everything or nothing at all. 
+    Also, you need to educate the inhibitor about your risk appetite, otherwise it might complain about every minor thing. 
 
 ### known issues:
 - the UI will only work in Jupyter environments that handle ipywidgets properly (e.g. Databricks' Jupyter does not, vscode is marginal)
