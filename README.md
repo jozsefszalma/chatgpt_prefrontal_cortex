@@ -1,0 +1,22 @@
+# ChatGPT Prefrontal Cortex
+Inspired by [this article](https://www.noemamag.com/ai-chatbots-dont-care-about-your-social-norms/?utm_source=noematwitter&utm_medium=noemasocial) <br>
+When I read it, I was thinking 'ok sure, but this sounds like an inhibitory problem' so I set out to give ChatGPT an inner voice to remind it when it is misbehaving.
+
+[b]work in progress![/b]
+
+### set up 
+env variables (e.g. in a .env file if using vscode) 
+- "KEY", for your openai API key 
+- "PROMPT_SYSTEM" (optionally) if you want to give your chatbot a default personality (e.g. helpful expert in area x)
+- "PROMPT_INHIBITOR" default instructions to the inhibitor model (i.e. what to look for, formatting the feedback in json etc)
+    the below code is expecting the responses from the inhibitor in the following format: <br>
+        {"decision": "pass", "explanation": ""}<br>
+        {"decision": "inhibit", "explanation": ""} <br>
+    so you need to engineer your prompt accordingly.
+    Also, you need to be quite specific what are your thresholds and tolerances, otherwise the inhibitor would complain about everything or nothing at all. 
+
+### known issues:
+- the UI will only work in Jupyter environments that handle ipywidgets properly (e.g. Databricks' Jupyter does not, vscode is marginal)
+- if using vscode keep in mind:
+    - enter and shift-enter in the input window are captured by vscode, use the Send button instead
+    - in vscode the default key binding to turn a cell into markdown is "m", you need to re-bind that in the settings as vscode captures it during typing
