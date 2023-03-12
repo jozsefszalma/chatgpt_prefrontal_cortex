@@ -9,7 +9,7 @@ This particular implementation will only provide an opportunity for the main mod
 ### Set up: 
 env variables (e.g. in a .env file if using vscode) 
 - "KEY", for your OpenAI API key 
-- "PROMPT_SYSTEM" this is where you set your chatbot's default personality (e.g. helpful expert in area x); you might also want to spell out the role of the inhibitor model
+- "PROMPT_SYSTEM" this is where you set your chatbot's default personality (e.g. helpful expert in area x); there is also where you might want to spell out the role of the inhibitor model, so the main model knows what to do with it
 - "PROMPT_INHIBITOR" default instructions to the inhibitor model (i.e. what to look for, formatting the feedback in json etc) <br>
     my code is expecting the responses from the inhibitor in the following format: <br>
         {"decision": "pass", "explanation": ""}<br>
