@@ -27,3 +27,4 @@ env variables (e.g. in a .env file if using vscode)
 - if using vscode keep in mind:
     - enter and shift-enter in the input window are captured by vscode, use the Send button instead
     - in vscode the default key binding to turn a cell into markdown is "m", you need to re-bind that in the settings as vscode captures it during typing
+- ChatGPT keeps apologizing after an inhibit decision (e.g. see screenshot above) while it should just rephrase the answer; I'm still working on the proper prompt. 
