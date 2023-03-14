@@ -6,6 +6,11 @@ This particular implementation will only provide an opportunity for the main mod
 
 <b>work in progress!</b>
 
+### How it works:
+![image](https://user-images.githubusercontent.com/96535232/225124598-8dbd97fe-0494-4a2d-85de-33fee83b4f60.png)
+<img width="779" alt="inhibit" src="https://user-images.githubusercontent.com/96535232/225124715-3cbcc935-cbfd-4a99-9074-389d0ab5533e.PNG">
+
+
 ### Set up: 
 env variables (e.g. in a .env file if using vscode) 
 - "KEY", for your OpenAI API key 
@@ -22,7 +27,3 @@ env variables (e.g. in a .env file if using vscode)
 - if using vscode keep in mind:
     - enter and shift-enter in the input window are captured by vscode, use the Send button instead
     - in vscode the default key binding to turn a cell into markdown is "m", you need to re-bind that in the settings as vscode captures it during typing
-
-### Disclaimer:
-This is less than a proof-of-concept currently, as I couldn't yet provoke ChatGPT to go off the rails reliably. <br>
-However, the inhibitory model seems to be quite reliable (if prompted properly) and ChatGPT does respond to a simulated inhibition by rephrasing its last message.
