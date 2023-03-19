@@ -7,8 +7,8 @@ This particular implementation will only provide an opportunity for the main mod
 <b>work in progress!</b>
 
 ### How it works:
+<img width="779" alt="pass" src="https://user-images.githubusercontent.com/96535232/226180836-49172feb-d887-4c62-afaa-06b2129ef081.png">
 <img width="779" alt="pass" src="https://user-images.githubusercontent.com/96535232/225124598-8dbd97fe-0494-4a2d-85de-33fee83b4f60.png">
-<img width="779" alt="inhibit" src="https://user-images.githubusercontent.com/96535232/225124715-3cbcc935-cbfd-4a99-9074-389d0ab5533e.PNG">
 <img width="779" alt="inhibit" src="https://user-images.githubusercontent.com/96535232/225137989-f340268b-0a52-4e5e-8913-74d981bdb8c0.png">
 
 
@@ -29,4 +29,3 @@ env variables (e.g. in a .env file if using vscode)
 - if using vscode keep in mind:
     - enter and shift-enter in the input window are captured by vscode, use the Send button instead
     - in vscode the default key binding to turn a cell into markdown is "m", you need to re-bind that in the settings as vscode captures it during typing
-- ChatGPT keeps apologizing after an inhibit decision (e.g. see screenshot above) while it should just rephrase the answer; I'm still working on the proper prompt. 
